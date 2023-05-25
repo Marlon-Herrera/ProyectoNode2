@@ -2,6 +2,6 @@ var Bicicleta = require('../../models/bicicleta');
 
 describe('Bicicleta.allBicis', () => {
     it('comienza vacia', () => {
-        expect(Bicicleta.allBicis.lenght).toBe(0);
+        expect(Bicicleta.allBicis.length).toBe(0);
     });
 });
